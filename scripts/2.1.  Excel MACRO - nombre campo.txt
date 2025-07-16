@@ -1,0 +1,118 @@
+Sub LimpiarTitular()
+    Dim celda As Range
+    Dim texto As String
+
+    ' Puedes cambiar Selection por un rango específico como Range("A1:A10")
+    For Each celda In Selection
+        If Not IsEmpty(celda.Value) Then
+            texto = Trim(celda.Value) ' Eliminar espacios al inicio y al final
+            
+            ' Reemplazar saltos de línea por |
+            texto = Replace(texto, vbCrLf, "|")
+            texto = Replace(texto, vbLf, "|")
+            
+            ' Reemplazar guiones y guiones bajos por |
+            texto = Replace(texto, "-", "|")
+            texto = Replace(texto, "_", "|")
+            
+            ' Reemplazar comas por |
+            texto = Replace(texto, ",", "|")
+             texto = Replace(texto, "/", "|")
+            
+            ' Reemplazar múltiples espacios por uno solo
+            Do While InStr(texto, "  ") > 0
+                texto = Replace(texto, "  ", " ")
+            Loop
+            
+             texto = Trim(texto)
+
+            ' Guardar el texto modificado en la celda
+            textoNuevo = UCase(texto)
+            textoNuevo = Replace(textoNuevo, "Á", "A")
+            textoNuevo = Replace(textoNuevo, "É", "E")
+            textoNuevo = Replace(textoNuevo, "Í", "I")
+            textoNuevo = Replace(textoNuevo, "Ó", "O")
+            textoNuevo = Replace(textoNuevo, "Ú", "U")
+            textoNuevo = Replace(textoNuevo, "Ü", "U")
+            textoNuevo = Replace(textoNuevo, "Ñ", "N")
+            
+            partes = Split(textoNuevo, "|")
+            ' Concatenar solo los elementos diferentes de vacío o null
+            resultado = ""
+            For i = LBound(partes) To UBound(partes)
+                If Trim(partes(i)) <> "" Then
+                    If resultado <> "" Then
+                        resultado = resultado & "|"
+                    End If
+                    resultado = resultado & Trim(partes(i))
+                End If
+            Next i
+
+            
+            celda.Value = resultado
+
+        End If
+    Next celda
+
+    MsgBox "Celdas limpiadas correctamente.", vbInformation
+End Sub
+
+Sub nombreAtributo()
+    Dim celda As Range
+    Dim textoOriginal As String
+    Dim textoNuevo As String
+
+    ' Verifica si hay una selección válida
+    If TypeName(Selection) <> "Range" Then
+        MsgBox "Selecciona una o más celdas con texto.", vbExclamation
+        Exit Sub
+    End If
+
+    For Each celda In Selection
+        If Not IsEmpty(celda.Value) Then
+            ' Paso 1: Trim inicial
+            textoOriginal = Trim(CStr(celda.Value))
+            
+            ' Paso 2: Convertir a mayúsculas
+            textoNuevo = UCase(textoOriginal)
+
+            ' Paso 3: Reemplazar tildes y ñ
+            textoNuevo = Replace(textoNuevo, "Á", "A")
+            textoNuevo = Replace(textoNuevo, "É", "E")
+            textoNuevo = Replace(textoNuevo, "Í", "I")
+            textoNuevo = Replace(textoNuevo, "Ó", "O")
+            textoNuevo = Replace(textoNuevo, "Ú", "U")
+            textoNuevo = Replace(textoNuevo, "Ü", "U")
+            textoNuevo = Replace(textoNuevo, "Ñ", "N")
+            
+            ' Paso 4: Reemplazar espacios por guiones bajos
+            textoNuevo = Replace(textoNuevo, " ", "_")
+            
+            ' Paso 5: Eliminar slashes (/)
+            textoNuevo = Replace(textoNuevo, "/", "")
+            textoNuevo = Replace(textoNuevo, "\", "")
+
+            ' Paso 6: Quitar otros símbolos opcionales (si deseas)
+            textoNuevo = Replace(textoNuevo, "-", "_")
+            textoNuevo = Replace(textoNuevo, ".", "_")
+            textoNuevo = Replace(textoNuevo, ",", "")
+            textoNuevo = Replace(textoNuevo, "(", "")
+            textoNuevo = Replace(textoNuevo, ")", "")
+            textoNuevo = Replace(textoNuevo, "¿", "")
+            textoNuevo = Replace(textoNuevo, "?", "")
+            textoNuevo = Replace(textoNuevo, "¡", "")
+            textoNuevo = Replace(textoNuevo, "!", "")
+            textoNuevo = Replace(textoNuevo, ":", "")
+            textoNuevo = Replace(textoNuevo, ";", "")
+            
+            ' Paso 7: Trim final por si acaso
+            textoNuevo = Trim(textoNuevo)
+            
+            ' Guardar en la misma celda
+            celda.Value = textoNuevo
+        End If
+    Next celda
+
+    MsgBox "Formato aplicado correctamente.", vbInformation
+End Sub
+

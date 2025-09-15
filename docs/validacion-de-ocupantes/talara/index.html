@@ -65,6 +65,14 @@
   <!-- CONTENEDOR DEL MAPA -->
   <div id="map" class="flex-1 w-full"></div>
 
+  <!-- BOTÓN DESCARGAR KML ESQUINA INFERIOR IZQUIERDA -->
+  <button id="download-kml-btn" title="Descargar KML"
+    class="absolute left-2 bottom-20 w-12 h-12 rounded-full bg-green-500 text-white text-xl flex items-center justify-center shadow-lg z-10 hover:bg-green-600 transition-colors">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+      <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+    </svg>
+  </button>
+
   <!-- LOGO ESQUINA INFERIOR IZQUIERDA -->
   <a target="_blank" href="https://drive.google.com/drive/folders/1rJxk6OnRtgzCrFRBU6FChQmRwiY46B1b?usp=drive_link"
     class="absolute left-2 bottom-16 flex items-center space-x-2 z-10 group" title="Ir a archivos">
@@ -308,7 +316,76 @@
     // 5️⃣ Info
     document.getElementById('info-btn').addEventListener('click', () => alert('Información de la aplicación Talara - Predios a verificar'));
 
-    // 6️⃣ Modal búsqueda
+    // 6️⃣ Función para convertir GeoJSON a KML
+    function geojsonToKml (geojson) {
+      let kml = `<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Predios Talara</name>
+    <description>Predios del Aeropuerto de Talara</description>`;
+
+      geojson.features.forEach(feature => {
+        const props = feature.properties;
+        const coords = feature.geometry.coordinates[0];
+
+        kml += `
+    <Placemark>
+      <name>${props.codigodepredio || 'Sin código'}</name>
+      <description>
+        <![CDATA[
+        <b>Proyecto:</b> ${props.nombredelproyecto || ''}<br/>
+        <b>Modalidad:</b> ${props.modalidaddeadquisicion || ''}<br/>
+        <b>Sujeto Pasivo:</b> ${props.sujetopasivo || ''}<br/>
+        <b>Tipo Persona:</b> ${props.tipodepersonajuridica || ''}<br/>
+        <b>Condición:</b> ${props.condiciondelsujetopasivo || ''}<br/>
+        <b>Área:</b> ${props.areaenmetroscuadrados || ''} m²<br/>
+        <b>Oficina Registral:</b> ${props.oficinaregistral || ''}<br/>
+        <b>Observación:</b> ${props.observacion || ''}
+        ]]>
+      </description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>`;
+
+        coords.forEach(coord => {
+          kml += `${coord[0]},${coord[1]},${coord[2] || 0} `;
+        });
+
+        kml += `</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>`;
+      });
+
+      kml += `
+  </Document>
+</kml>`;
+
+      return kml;
+    }
+
+    // 7️⃣ Función para descargar archivo
+    function downloadFile (content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    }
+
+    // 8️⃣ Evento del botón descargar KML
+    document.getElementById('download-kml-btn').addEventListener('click', () => {
+      const kmlContent = geojsonToKml(predioscaja);
+      downloadFile(kmlContent, 'predios_talara.kml', 'application/vnd.google-earth.kml+xml');
+    });
+
+    // 9️⃣ Modal búsqueda
     const searchBtn = document.getElementById('search-btn');
     const searchModal = document.getElementById('search-modal');
     const searchCancel = document.getElementById('search-cancel');

@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTAL BUSINESS EA&AE - ERP Educativo TOTAL UNIVERSITY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #8b5cf6 100%);
+        }
+
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            from {
+                box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+            }
+
+            to {
+                box-shadow: 0 0 40px rgba(59, 130, 246, 0.8);
+            }
+        }
+
+        .slide-in-left {
+            animation: slideInLeft 0.8s ease-out;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .hover-scale {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-scale:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#3b82f6',
+                        accent: '#f59e0b',
+                        purple: '#8b5cf6',
+                        pink: '#ec4899'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 font-inter">
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 border-b border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div
+                        class="w-10 h-10 bg-gradient-to-br from-primary to-purple rounded-xl flex items-center justify-center pulse-glow">
+                        <i class="fas fa-graduation-cap text-white text-xl"></i>
+                    </div>
+                    <h1 class="text-2xl font-bold text-gradient">TOTAL BUSINESS EA&AE</h1>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#nosotros" class="text-gray-700 hover:text-primary transition-colors">Nosotros</a>
+                    <div class="relative group">
+                        <a href="#erp" class="text-gray-700 hover:text-primary transition-colors flex items-center">
+                            ERP
+                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                        <div
+                            class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Gestión
+                                Académica de Pregrado</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Gestión
+                                Académica de Postgrado</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Centros de
+                                Producción</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Gestión
+                                Administrativa</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Gestión de
+                                Recursos Humanos</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sistemas de Soporte
+                                Universitario</a>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <a href="#servicios"
+                            class="text-gray-700 hover:text-primary transition-colors flex items-center">
+                            Servicios
+                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                        <div
+                            class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">TOTAL UNIVERSITY a
+                                medida</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">TOTAL UNIVERSITY como
+                                Servicio (SaaS)</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Consultoría Integral en
+                                procesos tecnológicos</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Soporte y mantenimiento
+                                de TOTAL UNIVERSITY</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Servicios de
+                                Infraestructura de alta disponibilidad en la nube</a>
+                        </div>
+                    </div>
+                    <a href="#obras" class="text-gray-700 hover:text-primary transition-colors">Obras por Impuestos</a>
+                    <a href="#casos" class="text-gray-700 hover:text-primary transition-colors">Casos de éxito</a>
+                    <a href="#contacto" class="text-gray-700 hover:text-primary transition-colors">Contacto</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 hero-gradient text-white relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full floating"></div>
+            <div class="absolute top-40 right-20 w-16 h-16 bg-white/10 rounded-full floating"
+                style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-white/10 rounded-full floating"
+                style="animation-delay: 2s;"></div>
+            <div class="absolute top-1/2 right-1/3 w-24 h-24 bg-white/5 rounded-full floating"
+                style="animation-delay: 0.5s;"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Content -->
+                <div class="text-center lg:text-left" data-aos="fade-right">
+                    <div
+                        class="inline-flex items-center px-4 py-2 bg-white/20 rounded-full text-sm font-medium mb-6 glass-effect">
+                        <i class="fas fa-star text-yellow-300 mr-2"></i>
+                        TOTAL UNIVERSITY - ERP Educativo de Clase Mundial
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        Toda tu gestión en una
+                        <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">plataforma</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 leading-relaxed text-gray-100">
+                        TOTAL UNIVERSITY es un ERP educativo que integra en una sola plataforma todos los procesos
+                        académicos,
+                        administrativos y financieros de una institución educativa.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <button
+                            class="bg-gradient-to-r from-accent to-orange-500 hover:from-orange-500 hover:to-accent text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+                            <i class="fas fa-rocket mr-2"></i>
+                            Comenzar ahora
+                        </button>
+                        <button
+                            class="border-2 border-white/30 hover:border-white text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:scale-105 glass-effect">
+                            <i class="fas fa-play mr-2"></i>
+                            Ver demo
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="relative" data-aos="fade-left">
+                    <div class="relative z-10">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                            alt="ERP Educativo" class="w-full h-96 object-cover rounded-2xl shadow-2xl hover-scale">
+                    </div>
+                    <!-- Floating Cards -->
+                    <div class="absolute -top-6 -left-6 bg-white rounded-xl p-4 shadow-xl hover-scale"
+                        data-aos="zoom-in" data-aos-delay="300">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-chart-line text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-gray-800">+150%</p>
+                                <p class="text-xs text-gray-600">Eficiencia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-white rounded-xl p-4 shadow-xl hover-scale"
+                        data-aos="zoom-in" data-aos-delay="600">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-users text-white"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-gray-800">+50K</p>
+                                <p class="text-xs text-gray-600">Usuarios</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-20 left-20 w-32 h-32 bg-primary rounded-full"></div>
+            <div class="absolute bottom-20 right-20 w-24 h-24 bg-secondary rounded-full"></div>
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-accent rounded-full">
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gradient">
+                    ¿Por qué elegir TOTAL UNIVERSITY?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Descubre las características que hacen de nuestro ERP educativo la solución perfecta para tu
+                    institución
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div
+                        class="bg-gradient-to-br from-primary to-purple w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 pulse-glow">
+                        <i class="fas fa-rocket text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Optimiza y mejora tu calidad educativa</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        TOTAL UNIVERSITY está diseñado para agilizar todos los procesos administrativos y
+                        académicos de tu universidad, desde la gestión de matrículas hasta el seguimiento del
+                        rendimiento estudiantil.
+                    </p>
+                    <div class="mt-6 flex justify-center">
+                        <div class="flex items-center space-x-2 text-primary font-semibold">
+                            <span>Saber más</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div
+                        class="bg-gradient-to-br from-secondary to-blue-400 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 pulse-glow">
+                        <i class="fas fa-magic text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Soluciones flexibles para cada institución</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        TOTAL UNIVERSITY es un ERP educativo que evoluciona con las particularidades de cada centro
+                        académico. El
+                        sistema integra todos los procesos administrativos y educativos en una plataforma versátil.
+                    </p>
+                    <div class="mt-6 flex justify-center">
+                        <div class="flex items-center space-x-2 text-secondary font-semibold">
+                            <span>Saber más</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div
+                        class="bg-gradient-to-br from-accent to-orange-500 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 pulse-glow">
+                        <i class="fas fa-cube text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Toda tu gestión en una plataforma</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        TOTAL UNIVERSITY es un ERP educativo que centraliza los procesos académicos, administrativos y
+                        financieros de una institución en una sola plataforma.
+                    </p>
+                    <div class="mt-6 flex justify-center">
+                        <div class="flex items-center space-x-2 text-accent font-semibold">
+                            <span>Saber más</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Soluciones pensadas para ti</h2>
+
+            <!-- Pregrado -->
+            <div class="mb-20" data-aos="fade-up">
+                <div class="text-center mb-12">
+                    <div
+                        class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-primary to-purple text-white rounded-full text-sm font-medium mb-4">
+                        <i class="fas fa-graduation-cap mr-2"></i>
+                        Gestión Académica
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">Sistema de Gestión Académica de
+                        Pregrado</h3>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                        TOTAL UNIVERSITY permite la automatización de los procesos de gestión académica, administrativa
+                        y
+                        financiera de las escuelas profesionales de pregrado
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100"
+                        data-aos="zoom-in" data-aos-delay="100">
+                        <div
+                            class="bg-gradient-to-br from-primary to-purple w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                            <i class="fas fa-laptop-code text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">Sistema de matrícula en línea</h4>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Plataforma amigable de inscripción en línea con
+                            interfaz moderna y procesos optimizados.</p>
+                        <div class="flex items-center text-primary font-semibold">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100"
+                        data-aos="zoom-in" data-aos-delay="200">
+                        <div
+                            class="bg-gradient-to-br from-secondary to-blue-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                            <i class="fas fa-network-wired text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">Sistema de intranet universitario</h4>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Intranet Universitaria eficiente y conectada con
+                            herramientas colaborativas avanzadas.</p>
+                        <div class="flex items-center text-secondary font-semibold">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100"
+                        data-aos="zoom-in" data-aos-delay="300">
+                        <div
+                            class="bg-gradient-to-br from-accent to-orange-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                            <i class="fas fa-chalkboard-teacher text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-4">Sistema de Gestión Docente</h4>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Gestión eficiente del cuerpo docente con
+                            herramientas de evaluación y seguimiento.</p>
+                        <div class="flex items-center text-accent font-semibold">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button
+                        class="bg-gradient-to-r from-primary to-purple hover:from-purple hover:to-primary text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+                        <i class="fas fa-eye mr-2"></i>
+                        Ver todos los productos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Postgrado -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Sistemas de Gestión Académica de Postgrado</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+                    TOTAL UNIVERSITY permite la automatización de los procesos de gestión académica, administrativa y
+                    financiera de las escuelas profesionales de Postgrado
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-user-graduate text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Postgrado Matrícula</h4>
+                        <p class="text-gray-600">Plataforma amigable de inscripción en línea para posgrado.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-secondary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-database text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Postgrado Intranet y Registro Académico</h4>
+                        <p class="text-gray-600">Intranet Universitaria eficiente y conectada para posgrado.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-user-tie text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Postgrado Gestión Docente</h4>
+                        <p class="text-gray-600">Gestión eficiente del cuerpo docente de posgrado.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Ver productos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Centros de Producción -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Sistemas de Centro de Producción</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+                    TOTAL UNIVERSITY permite la automatización de los procesos de gestión académica, administrativa y
+                    financiera de las escuelas profesionales de Postgrado
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-language text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Gestión de Centro de Idiomas</h4>
+                        <p class="text-gray-600">Gestión integral del centro de idiomas.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-secondary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-university text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Gestión de Centro Pre Universitario</h4>
+                        <p class="text-gray-600">Gestión eficiente del centro pre-universitario.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-laptop text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Aula Virtual para Centros de Producción</h4>
+                        <p class="text-gray-600">Plataforma para el aprendizaje práctico y colaborativo.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Ver productos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Gestión Administrativa -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Sistemas de Gestión Administrativa</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Sistemas que permiten optimizar procesos internos, como la gestión de recursos humanos, financieros
+                    y materiales, mejorando la eficiencia operativa y facilitando la toma de decisiones para garantizar
+                    un funcionamiento institucional más ágil y organizado.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-gavel text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Actos Resolutivos</h4>
+                        <p class="text-gray-600">Gestión eficiente de actos resolutivos.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-secondary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-calculator text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Contabilidad</h4>
+                        <p class="text-gray-600">Gestión integral de la contabilidad universitaria.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-file-contract text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Gestión de Contratos</h4>
+                        <p class="text-gray-600">Gestión integral de contratos para mayor control y transparencia.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Ver productos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recursos Humanos -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Sistemas de Gestión de Recursos Humanos</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Sistemas que automatizan y optimizan procesos relacionados con la administración del personal, como
+                    selección, contratación, evaluación, capacitación y gestión de nóminas, mejorando la eficiencia y el
+                    bienestar de los colaboradores de la institución.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-money-bill-wave text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Gestión de Planillas</h4>
+                        <p class="text-gray-600">Gestión integral de planillas y pagos.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-secondary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-clock text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Control de Asistencia</h4>
+                        <p class="text-gray-600">Control eficiente de asistencia del personal universitario.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-chart-bar text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Escalafón</h4>
+                        <p class="text-gray-600">Gestión integral de la carrera profesional del personal.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Ver productos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte Universitario -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center">Sistemas de Soporte Universitario</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Sistemas que brindan servicios y asistencia para mejorar la experiencia académica y administrativa
+                    en las universidades, facilitando la gestión de trámites, consultas, soporte tecnológico y el acceso
+                    a recursos académicos, fortaleciendo la comunicación entre estudiantes, docentes y la institución.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-globe text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Portal Web Institucional (CMS)</h4>
+                        <p class="text-gray-600">Portal web institucional para comunicación e interacción universitaria.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-secondary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-lightbulb text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Gestión de Innovación y Transferencia Tecnológica
+                        </h4>
+                        <p class="text-gray-600">Gestión de innovación y transferencia tecnológica universitaria.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-utensils text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-2">Sistema de Comedor Universitario</h4>
+                        <p class="text-gray-600">Gestión eficiente del comedor universitario.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Ver productos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-8">Somos un ERP educativo de gran clase mundial</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                    TOTAL UNIVERSITY es un ERP educativo de clase mundial, diseñado para cumplir con los más altos
+                    estándares de
+                    calidad, seguridad y cumplimiento. Nuestra plataforma combina innovación tecnológica y
+                    funcionalidades avanzadas para brindar soluciones integrales a universidades y escuelas
+                    profesionales de todo el mundo, optimizando y automatizando los procesos académicos, administrativos
+                    y financieros. La implementación del ERP TOTAL UNIVERSITY, permite que las instituciones educativas
+                    puedan
+                    alcanzar un nuevo nivel de excelencia operativa y académica.
+                </p>
+                <div class="flex justify-center space-x-8">
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Nosotros
+                    </button>
+                    <button
+                        class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        Nosotros
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-purple text-white relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full floating"></div>
+            <div class="absolute bottom-10 right-10 w-24 h-24 bg-white/10 rounded-full floating"
+                style="animation-delay: 1s;"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-white/5 rounded-full floating"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Nuestros números hablan por sí solos</h2>
+                <p class="text-xl text-gray-200 max-w-3xl mx-auto">
+                    Más de una década transformando la educación con tecnología de vanguardia
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 mb-6 hover-scale">
+                        <div class="text-5xl md:text-6xl font-bold mb-2 text-yellow-300">15+</div>
+                        <div class="text-lg font-semibold">Años de experiencia</div>
+                    </div>
+                </div>
+
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 mb-6 hover-scale">
+                        <div class="text-5xl md:text-6xl font-bold mb-2 text-green-300">500+</div>
+                        <div class="text-lg font-semibold">Instituciones</div>
+                    </div>
+                </div>
+
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 mb-6 hover-scale">
+                        <div class="text-5xl md:text-6xl font-bold mb-2 text-blue-300">50K+</div>
+                        <div class="text-lg font-semibold">Usuarios activos</div>
+                    </div>
+                </div>
+
+                <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 mb-6 hover-scale">
+                        <div class="text-5xl md:text-6xl font-bold mb-2 text-pink-300">99.9%</div>
+                        <div class="text-lg font-semibold">Uptime garantizado</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-20 right-20 w-32 h-32 bg-primary rounded-full"></div>
+            <div class="absolute bottom-20 left-20 w-24 h-24 bg-secondary rounded-full"></div>
+            <div
+                class="absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-accent rounded-full">
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gradient">Nuestros servicios</h2>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                    Brindamos a nuestros clientes un servicio personalizado, adaptado específicamente a sus necesidades
+                    únicas, para ofrecer soluciones que optimicen de manera integral la gestión educativa
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div
+                        class="bg-gradient-to-br from-primary to-purple w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-cogs text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">TOTAL UNIVERSITY a medida</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">TOTAL UNIVERSITY permite la automatización de los
+                        procesos de gestión
+                        académica, administrativa y financiera de las escuelas profesionales de pregrado</p>
+                    <div class="flex items-center text-primary font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div
+                        class="bg-gradient-to-br from-secondary to-blue-400 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-cloud text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">TOTAL UNIVERSITY como Servicio (SaaS)</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Servicio de TOTAL UNIVERSITY en modalidad SaaS,
+                        accesible
+                        en la nube con máxima seguridad y escalabilidad.</p>
+                    <div class="flex items-center text-secondary font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div
+                        class="bg-gradient-to-br from-accent to-orange-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-server text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Infraestructura de alta disponibilidad</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Infraestructura en la nube de alta disponibilidad con
+                        redundancia y respaldos automáticos.</p>
+                    <div class="flex items-center text-accent font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="400">
+                    <div
+                        class="bg-gradient-to-br from-green-500 to-emerald-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-comments text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Consultoría Integral</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Consultoría integral en procesos tecnológicos para
+                        optimizar tu infraestructura educativa.</p>
+                    <div class="flex items-center text-green-600 font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="500">
+                    <div
+                        class="bg-gradient-to-br from-purple-500 to-pink-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-tools text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Soporte y mantenimiento</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Soporte técnico especializado y mantenimiento continuo
+                        para garantizar el funcionamiento óptimo.</p>
+                    <div class="flex items-center text-purple-600 font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover-scale border border-gray-100" data-aos="fade-up"
+                    data-aos-delay="600">
+                    <div
+                        class="bg-gradient-to-br from-indigo-500 to-purple-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 pulse-glow">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Seguridad avanzada</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Implementación de medidas de seguridad avanzadas para
+                        proteger la información institucional.</p>
+                    <div class="flex items-center text-indigo-600 font-semibold">
+                        <span>Saber más</span>
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button
+                    class="bg-gradient-to-r from-primary to-purple hover:from-purple hover:to-primary text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+                    <i class="fas fa-list mr-2"></i>
+                    Ver todos los servicios
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-4">Confian en nuestra</h2>
+            <h3 class="text-3xl font-bold text-center mb-12 text-primary">Calidad</h3>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                TOTAL UNIVERSITY brindado a todos nuestros clientes que han confiado en nuestras metodologías y sistemas
+                que brindamos a través de los años
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 flex items-center justify-center shadow-md">
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 font-bold">Logo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button
+                    class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                    Ver más
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Enlaces</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition-colors">Nosotros</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">ERP</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Servicios</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Obras por Impuestos</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Casos de éxito</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Productos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Gestión Académica de
+                                Pregrado</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Gestión Académica de
+                                Postgrado</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Centros de
+                                Producción</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Gestión
+                                Administrativa</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Gestión de Recursos
+                                Humanos</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Sistemas de Soporte
+                                Universitario</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Servicios</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition-colors">TOTAL UNIVERSITY a medida</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">TOTAL UNIVERSITY como Servicio
+                                (SaaS)</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Consultoría Integral en procesos
+                                tecnológicos</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Soporte y mantenimiento de TOTAL
+                                UNIVERSITY</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Servicios de Infraestructura de alta
+                                disponibilidad en la nube</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Enlaces</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition-colors">Nosotros</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">ERP</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Servicios</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Obras por Impuestos</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Casos de éxito</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">Términos y políticas de privacidad</p>
+                <p class="text-gray-400 mt-2">Diseñado por StaffCreativa</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('nav.md\\:flex');
+
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function () {
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                    mobileMenu.classList.toggle('flex-col');
+                    mobileMenu.classList.toggle('absolute');
+                    mobileMenu.classList.toggle('top-full');
+                    mobileMenu.classList.toggle('left-0');
+                    mobileMenu.classList.toggle('w-full');
+                    mobileMenu.classList.toggle('bg-white');
+                    mobileMenu.classList.toggle('shadow-lg');
+                    mobileMenu.classList.toggle('p-4');
+                });
+            }
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Parallax effect for floating elements
+            window.addEventListener('scroll', function () {
+                const scrolled = window.pageYOffset;
+                const parallaxElements = document.querySelectorAll('.floating');
+                parallaxElements.forEach(element => {
+                    const speed = 0.5;
+                    element.style.transform = `translateY(${scrolled * speed}px)`;
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

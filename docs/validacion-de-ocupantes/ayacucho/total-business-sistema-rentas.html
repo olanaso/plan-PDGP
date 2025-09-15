@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTAL BUSINESS EA&AE S.A.C - Sistema de Rentas y Tributación</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#1e3a8a',
+                        'secondary': '#3b82f6',
+                        'accent': '#8b5cf6',
+                        'dark-purple': '#1e1b4b'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #8b5cf6 100%);
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center">
+                            <div class="bg-primary text-white px-4 py-2 rounded-l-lg font-bold text-sm">
+                                TOTAL BUSINESS EA&AE S.A.C
+                            </div>
+                            <div class="bg-accent text-black px-3 py-2 rounded-r-lg font-bold text-xs">
+                                EA&AE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary font-medium">Sistemas</a>
+                    <a href="#" class="text-gray-700 hover:text-primary font-medium">Demo</a>
+                    <a href="#" class="text-gray-700 hover:text-primary font-medium">Planes</a>
+                    <div class="relative group">
+                        <a href="#" class="text-gray-700 hover:text-primary font-medium flex items-center">
+                            Ayuda <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- Action Buttons -->
+                <div class="flex items-center space-x-4">
+                    <button
+                        class="border border-primary text-primary hover:bg-primary hover:text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                        Ingresar
+                    </button>
+                    <button
+                        class="bg-primary text-white hover:bg-dark-purple px-4 py-2 rounded-lg font-medium transition-colors">
+                        Solicitar Total Business
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section - Sistema de Rentas y Tributación -->
+    <section class="gradient-bg text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Content -->
+                <div class="space-y-6">
+                    <h1 class="text-4xl lg:text-6xl font-bold leading-tight">
+                        ¿Qué es Sistema de rentas y tributación?
+                    </h1>
+                    <p class="text-lg lg:text-xl text-blue-100 leading-relaxed">
+                        Nuestro <strong>Sistema de Rentas y Administración Tributaria - SIAT</strong> es una solución
+                        tecnológica integral para gobiernos locales, diseñada para automatizar y optimizar la
+                        administración, recaudación y fiscalización tributaria. Garantiza interoperabilidad, mejora la
+                        atención al contribuyente, control eficiente de diversos impuestos (predial, arbitrios,
+                        alcabala) y procesos como ejecución coercitiva, fiscalización y comercialización, asegurando
+                        transparencia, eficiencia y resultados medibles.
+                    </p>
+                    <p class="text-lg font-semibold text-blue-100">
+                        Más de 100 Municipios en todo el Perú haciendo uso.
+                    </p>
+                </div>
+
+                <!-- Illustration Card -->
+                <div class="flex justify-center lg:justify-end">
+                    <div class="bg-white rounded-xl p-8 max-w-md w-full card-hover">
+                        <div class="text-center space-y-6">
+                            <!-- Icons -->
+                            <div class="flex justify-center space-x-4">
+                                <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-calendar text-white text-xl"></i>
+                                </div>
+                                <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-percentage text-white text-xl"></i>
+                                </div>
+                                <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-calculator text-white text-xl"></i>
+                                </div>
+                            </div>
+
+                            <!-- Person Illustration -->
+                            <div class="flex justify-center">
+                                <div class="w-24 h-24 bg-accent rounded-full flex items-center justify-center">
+                                    <i class="fas fa-user text-white text-4xl"></i>
+                                </div>
+                            </div>
+
+                            <!-- Title -->
+                            <h2 class="text-2xl font-bold text-primary">
+                                RENTA Y TRIBUTACIÓN
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="bg-secondary py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
+                    Ventajas de crear un sistema en Total Business
+                </h2>
+            </div>
+
+            <!-- Feature Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <!-- Online -->
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                            <i class="fas fa-wifi text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-accent">Online</h3>
+                        <p class="text-gray-600 text-sm">
+                            Accede y gestiona tu sistema desde cualquier lugar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Eficiente -->
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                            <i class="fas fa-leaf text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-accent">Eficiente</h3>
+                        <p class="text-gray-600 text-sm">
+                            Ahorra agua, energía y tiempo con tecnología optimizada.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Escalable -->
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                            <i class="fas fa-cubes text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-accent">Escalable</h3>
+                        <p class="text-gray-600 text-sm">
+                            Amplía tu sistema conforme crecen tus necesidades.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Fácil -->
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                            <i class="fas fa-user-cog text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-accent">Fácil</h3>
+                        <p class="text-gray-600 text-sm">
+                            Instalación rápida, sin complicaciones técnicas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Confiable -->
+                <div class="bg-white rounded-xl p-6 card-hover">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                            <i class="fas fa-shield-check text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-accent">Confiable</h3>
+                        <p class="text-gray-600 text-sm">
+                            Soporte técnico y garantía de calidad Total Business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-purple text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <div class="bg-primary text-white px-4 py-2 rounded-l-lg font-bold text-sm">
+                            TOTAL BUSINESS EA&AE S.A.C
+                        </div>
+                        <div class="bg-accent text-black px-3 py-2 rounded-r-lg font-bold text-xs">
+                            EA&AE
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-sm">
+                        Ofrecemos sistemas digitales seguros y eficientes para municipalidades del Perú. Leer más.
+                    </p>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-300">Miembros Oficiales de</span>
+                        <div class="bg-red-600 text-white px-3 py-1 rounded text-sm font-bold">
+                            FinTech
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conoce Total Business -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold">Conoce Total Business</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">¿Cómo funciona?</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Registrate</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Política de protección de datos</a>
+                        </li>
+                        <li><a href="#" class="hover:text-white transition-colors">Términos y condiciones</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Tarifario</a></li>
+                    </ul>
+                </div>
+
+                <!-- Ayuda -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold">Ayuda</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Libro de Reclamaciones</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Canal de Denuncias</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Canal de Transparencia</a></li>
+                    </ul>
+                </div>
+
+                <!-- Compre seguro & Contacto -->
+                <div class="space-y-6">
+                    <!-- Compre seguro -->
+                    <div class="space-y-3">
+                        <h3 class="text-lg font-semibold">Compre seguro</h3>
+                        <p class="text-gray-300 text-sm">
+                            Nuestro sitio está protegido por un certificado de seguridad SSL de Cloudflare®.
+                        </p>
+                        <div class="bg-orange-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                            <i class="fas fa-lock"></i>
+                            <span class="text-sm font-bold">CLOUDFLARE SEGURO Y VERIFICADO COMPROBADO</span>
+                        </div>
+                    </div>
+
+                    <!-- Contacto -->
+                    <div class="space-y-3">
+                        <h3 class="text-lg font-semibold">Contacto</h3>
+                        <p class="text-gray-300 text-sm">
+                            Por consultas puedes escribirnos por el chat en la web y en la APP o el mail
+                            totalbussines@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="border-t border-gray-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-red-600 text-white w-8 h-8 rounded-full flex items-center justify-center">
+                            <span class="text-xs font-bold">P</span>
+                        </div>
+                        <span class="text-sm text-gray-300">Prex nacional</span>
+                    </div>
+
+                    <div class="text-center md:text-right space-y-2">
+                        <p class="text-gray-300 text-sm max-w-2xl">
+                            Total Bussines SAC es una empresa peruana especializada en sistemas digitales para
+                            municipalidades, ofreciendo soluciones tecnológicas innovadoras para optimizar la gestión
+                            pública local, mejorar la recaudación, atención ciudadana y transparencia. Nuestros
+                            productos se adaptan a las regulaciones peruanas y necesidades específicas de los gobiernos
+                            locales. Para más información, consulte nuestros Términos y Condiciones.
+                        </p>
+                        <p class="text-gray-300 text-sm">
+                            TOTAL BUSSINES 2025 © Todos los derechos reservados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-50 bg-black bg-opacity-50">
+        <div class="bg-white h-full w-64 p-6">
+            <div class="flex justify-between items-center mb-8">
+                <div class="flex items-center">
+                    <div class="bg-primary text-white px-3 py-1 rounded-l-lg font-bold text-xs">
+                        TOTAL BUSINESS
+                    </div>
+                    <div class="bg-accent text-black px-2 py-1 rounded-r-lg font-bold text-xs">
+                        EA&AE
+                    </div>
+                </div>
+                <button id="close-mobile-menu" class="text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+
+            <nav class="space-y-4">
+                <a href="#" class="block text-gray-700 hover:text-primary font-medium">Sistemas</a>
+                <a href="#" class="block text-gray-700 hover:text-primary font-medium">Demo</a>
+                <a href="#" class="block text-gray-700 hover:text-primary font-medium">Planes</a>
+                <a href="#" class="block text-gray-700 hover:text-primary font-medium">Ayuda</a>
+            </nav>
+
+            <div class="mt-8 space-y-4">
+                <button
+                    class="w-full border border-primary text-primary hover:bg-primary hover:text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                    Ingresar
+                </button>
+                <button
+                    class="w-full bg-primary text-white hover:bg-dark-purple px-4 py-2 rounded-lg font-medium transition-colors">
+                    Solicitar Total Business
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMobileMenu = document.getElementById('close-mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+        });
+
+        closeMobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        mobileMenu.addEventListener('click', (e) => {
+            if (e.target === mobileMenu) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+
+</html>

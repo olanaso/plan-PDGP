@@ -101,7 +101,7 @@
   <div id="search-modal"
     class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-20 hidden">
     <div class="bg-white rounded-2xl p-6 shadow-lg w-11/12 max-w-sm">
-      <h2 class="text-lg font-semibold mb-4 text-gray-700">Ingresar código</h2>
+      <h2 class="text-lg font-semibold mb-4 text-gray-700">Ingresar código o sujeto pasivo</h2>
       <input type="text" id="search-input" placeholder="Ej. PM1G-AER..."
         class="w-full border border-gray-300 rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-red-500" />
       <div class="flex justify-end space-x-2">
@@ -2163,8 +2163,14 @@
 
     // Generar la variable predios automáticamente desde predioscaja
     const predios = generarPrediosDesdeGeoJSON(predioscaja);
-    // Configuración del typeahead para búsqueda de predios
-    const codigos = predioscaja.features.map(feature => feature.properties.codigodepredio);
+
+    // Configuración del typeahead para búsqueda de predios (por código y sujeto pasivo)
+    // Crear un array de objetos con información de búsqueda
+    const searchData = predioscaja.features.map(feature => ({
+      codigo: feature.properties.codigodepredio,
+      sujeto: feature.properties.sujetopasivo || '',
+      feature: feature
+    }));
 
     $('#search-input').typeahead(
       {
@@ -2174,16 +2180,38 @@
       },
       {
         name: 'predios',
+        display: function (item) {
+          // Mostrar en el formato: CODIGO - Sujeto Pasivo
+          return `${item.codigo} - ${item.sujeto}`;
+        },
         source: function (query, syncResults) {
-          const matches = codigos.filter(codigo =>
-            codigo.toLowerCase().includes(query.toLowerCase())
+          const queryLower = query.toLowerCase();
+          const matches = searchData.filter(item =>
+            item.codigo.toLowerCase().includes(queryLower) ||
+            item.sujeto.toLowerCase().includes(queryLower)
           );
           syncResults(matches);
+        },
+        templates: {
+          suggestion: function (item) {
+            // Resaltar si la coincidencia es por código o por sujeto
+            const queryLower = $('#search-input').val().toLowerCase();
+            const isCodigoMatch = item.codigo.toLowerCase().includes(queryLower);
+            const isSujetoMatch = item.sujeto.toLowerCase().includes(queryLower);
+
+            return `<div style="padding: 5px;">
+              <strong>${item.codigo}</strong>
+              ${isCodigoMatch ? '<span style="color: #2563eb; font-size: 0.75em;"> (código)</span>' : ''}
+              <br>
+              <small style="color: #666;">${item.sujeto}</small>
+              ${isSujetoMatch && !isCodigoMatch ? '<span style="color: #16a34a; font-size: 0.75em;"> (sujeto)</span>' : ''}
+            </div>`;
+          }
         }
       }
     ).bind('typeahead:select', function (ev, selected) {
 
-      const item = predioscaja.features.find(feature => feature.properties.codigodepredio === selected);
+      const item = selected.feature;
 
       if (item) {
         closeModal()

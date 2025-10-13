@@ -1,0 +1,3362 @@
+{
+    "type": "FeatureCollection",
+    "name": "talara",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-092",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "AREVALO IRCAS GLOWER ADHETMIRDAVILA CORDOVA ALIDIA FERNANDEZ",
+                "observacion": "",
+                "latitud": -4.5824510563226299,
+                "longitud": -81.254822991016226,
+                "google_maps": "https://www.google.com/maps?q=-4.58245105632263,-81.25482299101623(PM1G-AERTALARA-PU-092)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254867186409598,
+                            -4.58249354110888,
+                            0.0
+                        ],
+                        [
+                            -81.254766743032405,
+                            -4.58247252612506,
+                            0.0
+                        ],
+                        [
+                            -81.254780051871506,
+                            -4.58240847181104,
+                            0.0
+                        ],
+                        [
+                            -81.254878183966994,
+                            -4.58242921959262,
+                            0.0
+                        ],
+                        [
+                            -81.254867186409598,
+                            -4.58249354110888,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-083",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "SILVA SILVA IRMACRUZ YAMUNAQUE JAVIER",
+                "observacion": "",
+                "latitud": -4.5827868028337582,
+                "longitud": -81.25456249974718,
+                "google_maps": "https://www.google.com/maps?q=-4.582786802833758,-81.25456249974718(PM1G-AERTALARA-PU-083)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254601804390006,
+                            -4.58273034279409,
+                            0.0
+                        ],
+                        [
+                            -81.254581006426207,
+                            -4.58284694569147,
+                            0.0
+                        ],
+                        [
+                            -81.254515516627393,
+                            -4.58283521758944,
+                            0.0
+                        ],
+                        [
+                            -81.254555024823603,
+                            -4.58272194077881,
+                            0.0
+                        ],
+                        [
+                            -81.254601804390006,
+                            -4.58273034279409,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-081",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "YAMUNAQUE SILVA ALBERTO MARTIN",
+                "observacion": "",
+                "latitud": -4.5828031152561008,
+                "longitud": -81.254671537295835,
+                "google_maps": "https://www.google.com/maps?q=-4.582803115256101,-81.25467153729583(PM1G-AERTALARA-PU-081)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254708617231401,
+                            -4.58274960158474,
+                            0.0
+                        ],
+                        [
+                            -81.254687816247099,
+                            -4.58286622153258,
+                            0.0
+                        ],
+                        [
+                            -81.254634457582497,
+                            -4.58285662007096,
+                            0.0
+                        ],
+                        [
+                            -81.254655255492906,
+                            -4.58274001736266,
+                            0.0
+                        ],
+                        [
+                            -81.254708617231401,
+                            -4.58274960158474,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-101",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ITALO PELAYES CHUQUIHUANCA",
+                "observacion": "",
+                "latitud": -4.5790945052293788,
+                "longitud": -81.255958558975749,
+                "google_maps": "https://www.google.com/maps?q=-4.579094505229379,-81.25595855897575(PM1G-AERTALARA-PU-101)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.256075778141494,
+                            -4.57835287583524,
+                            0.0
+                        ],
+                        [
+                            -81.256362022341804,
+                            -4.57902329704178,
+                            0.0
+                        ],
+                        [
+                            -81.255754914979093,
+                            -4.57994401324437,
+                            0.0
+                        ],
+                        [
+                            -81.255611035194406,
+                            -4.57983496758165,
+                            0.0
+                        ],
+                        [
+                            -81.255877595285995,
+                            -4.57830697442052,
+                            0.0
+                        ],
+                        [
+                            -81.256075778141494,
+                            -4.57835287583524,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-186",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ESTADO REPRESENTADO POR LA SBN",
+                "observacion": "",
+                "latitud": -4.5777626187500431,
+                "longitud": -81.258571462207897,
+                "google_maps": "https://www.google.com/maps?q=-4.577762618750043,-81.2585714622079(PM1G-AERTALARA-PU-186)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258723367593902,
+                            -4.57744816343214,
+                            0.0
+                        ],
+                        [
+                            -81.258580108291994,
+                            -4.57825117539073,
+                            0.0
+                        ],
+                        [
+                            -81.258410910737794,
+                            -4.57758851742726,
+                            0.0
+                        ],
+                        [
+                            -81.258723367593902,
+                            -4.57744816343214,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-005",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ESTADO  (REPRESENTADO POR LA SBN)",
+                "observacion": "",
+                "latitud": -4.5903669825252491,
+                "longitud": -81.252218385557626,
+                "google_maps": "https://www.google.com/maps?q=-4.590366982525249,-81.25221838555763(PM1G-AERTALARA-PU-005)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.252186868132,
+                            -4.59035215321628,
+                            0.0
+                        ],
+                        [
+                            -81.252250956239905,
+                            -4.59035443068496,
+                            0.0
+                        ],
+                        [
+                            -81.2522506132171,
+                            -4.5903813308067,
+                            0.0
+                        ],
+                        [
+                            -81.252185818099505,
+                            -4.59037993890024,
+                            0.0
+                        ],
+                        [
+                            -81.252186868132,
+                            -4.59035215321628,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-087",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FRIAS NANAY JOSE SANTOSMULATILLO CAMPOS ESTELA",
+                "observacion": "",
+                "latitud": -4.5825514589618379,
+                "longitud": -81.254681822139048,
+                "google_maps": "https://www.google.com/maps?q=-4.582551458961838,-81.25468182213905(PM1G-AERTALARA-PU-087)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254638902756099,
+                            -4.58251058754498,
+                            0.0
+                        ],
+                        [
+                            -81.254744752647397,
+                            -4.58253256657542,
+                            0.0
+                        ],
+                        [
+                            -81.254732648208503,
+                            -4.58259131365909,
+                            0.0
+                        ],
+                        [
+                            -81.254613355137096,
+                            -4.58256949642516,
+                            0.0
+                        ],
+                        [
+                            -81.254638902756099,
+                            -4.58251058754498,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-086",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ATOCHE RIOFRIO FRANCISCA NELLY",
+                "observacion": "",
+                "latitud": -4.5826070250192874,
+                "longitud": -81.254663669673519,
+                "google_maps": "https://www.google.com/maps?q=-4.582607025019287,-81.25466366967352(PM1G-AERTALARA-PU-086)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254613355137096,
+                            -4.58256949642516,
+                            0.0
+                        ],
+                        [
+                            -81.254732648208503,
+                            -4.58259131365909,
+                            0.0
+                        ],
+                        [
+                            -81.254718625205498,
+                            -4.58264455589106,
+                            0.0
+                        ],
+                        [
+                            -81.254711664544502,
+                            -4.58264330561436,
+                            0.0
+                        ],
+                        [
+                            -81.254590763479399,
+                            -4.58262158930507,
+                            0.0
+                        ],
+                        [
+                            -81.254613355137096,
+                            -4.58256949642516,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-082",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "NIZAMA LOPEZ ALBERTO",
+                "observacion": "",
+                "latitud": -4.5827935825502566,
+                "longitud": -81.254618128441649,
+                "google_maps": "https://www.google.com/maps?q=-4.582793582550257,-81.25461812844165(PM1G-AERTALARA-PU-082)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.2546017915503,
+                            -4.58273041477955,
+                            0.0
+                        ],
+                        [
+                            -81.254655255492906,
+                            -4.58274001736266,
+                            0.0
+                        ],
+                        [
+                            -81.254634400231794,
+                            -4.58285694154399,
+                            0.0
+                        ],
+                        [
+                            -81.254581006460597,
+                            -4.58284694549818,
+                            0.0
+                        ],
+                        [
+                            -81.2546017915503,
+                            -4.58273041477955,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-080",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": " YAMUNAQUE SILVA  ALBERTO MARTÃN",
+                "observacion": "",
+                "latitud": -4.582813180833436,
+                "longitud": -81.254724984317335,
+                "google_maps": "https://www.google.com/maps?q=-4.582813180833436,-81.25472498431733(PM1G-AERTALARA-PU-080)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254708617231401,
+                            -4.58274960158472,
+                            0.0
+                        ],
+                        [
+                            -81.254762281880403,
+                            -4.58275924020778,
+                            0.0
+                        ],
+                        [
+                            -81.254741286147095,
+                            -4.58287695203945,
+                            0.0
+                        ],
+                        [
+                            -81.254687691932901,
+                            -4.5828669184766,
+                            0.0
+                        ],
+                        [
+                            -81.254708617231401,
+                            -4.58274960158472,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-097",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "OLEA MORENO ADELINA",
+                "observacion": "",
+                "latitud": -4.5827323544733627,
+                "longitud": -81.254758064707474,
+                "google_maps": "https://www.google.com/maps?q=-4.582732354473363,-81.25475806470747(PM1G-AERTALARA-PU-097)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254696255519207,
+                            -4.58269517354098,
+                            0.0
+                        ],
+                        [
+                            -81.254828670216099,
+                            -4.58271881105147,
+                            0.0
+                        ],
+                        [
+                            -81.254819985688798,
+                            -4.58276960429305,
+                            0.0
+                        ],
+                        [
+                            -81.254762281880403,
+                            -4.58275924020778,
+                            0.0
+                        ],
+                        [
+                            -81.254687232508999,
+                            -4.58274576070721,
+                            0.0
+                        ],
+                        [
+                            -81.254696255519207,
+                            -4.58269517354098,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-001",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ESTADO  (REPRESENTADO POR LA SBN)",
+                "observacion": "",
+                "latitud": -4.5782381489546058,
+                "longitud": -81.258185979920697,
+                "google_maps": "https://www.google.com/maps?q=-4.578238148954606,-81.2581859799207(PM1G-AERTALARA-PU-001)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258243434110398,
+                            -4.57828047011848,
+                            0.0
+                        ],
+                        [
+                            -81.258206638744397,
+                            -4.57830659851922,
+                            0.0
+                        ],
+                        [
+                            -81.258128525730996,
+                            -4.57819582778688,
+                            0.0
+                        ],
+                        [
+                            -81.258165321094694,
+                            -4.57816969939024,
+                            0.0
+                        ],
+                        [
+                            -81.258243434110398,
+                            -4.57828047011848,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-094",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MARTINEZ OLEA MARCO ANTONIO  ",
+                "observacion": "",
+                "latitud": -4.5825729635720469,
+                "longitud": -81.254794753815801,
+                "google_maps": "https://www.google.com/maps?q=-4.582572963572047,-81.2547947538158(PM1G-AERTALARA-PU-094)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254744752647397,
+                            -4.58253256657542,
+                            0.0
+                        ],
+                        [
+                            -81.254750928117801,
+                            -4.5825338488705,
+                            0.0
+                        ],
+                        [
+                            -81.254856545018299,
+                            -4.58255577950376,
+                            0.0
+                        ],
+                        [
+                            -81.254846896934694,
+                            -4.58261220832429,
+                            0.0
+                        ],
+                        [
+                            -81.254732648208503,
+                            -4.58259131365909,
+                            0.0
+                        ],
+                        [
+                            -81.254744752647397,
+                            -4.58253256657542,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-093",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "TAVARA ZAPATA MATILDE",
+                "observacion": "",
+                "latitud": -4.5825138645035013,
+                "longitud": -81.254809549046669,
+                "google_maps": "https://www.google.com/maps?q=-4.582513864503501,-81.25480954904667(PM1G-AERTALARA-PU-093)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254763704350395,
+                            -4.5824718903651,
+                            0.0
+                        ],
+                        [
+                            -81.254766743032405,
+                            -4.58247252612506,
+                            0.0
+                        ],
+                        [
+                            -81.254867186409598,
+                            -4.58249354110888,
+                            0.0
+                        ],
+                        [
+                            -81.254856545018299,
+                            -4.58255577950376,
+                            0.0
+                        ],
+                        [
+                            -81.254750928117801,
+                            -4.5825338488705,
+                            0.0
+                        ],
+                        [
+                            -81.254763704350395,
+                            -4.5824718903651,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-096",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "AGUILAR PALACIOS FELIPA YUVIXSATAVARA IVAN NOLE",
+                "observacion": "",
+                "latitud": -4.5826810179582695,
+                "longitud": -81.254768496588397,
+                "google_maps": "https://www.google.com/maps?q=-4.5826810179582695,-81.2547684965884(PM1G-AERTALARA-PU-096)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254711664544502,
+                            -4.58264330561436,
+                            0.0
+                        ],
+                        [
+                            -81.254837709016897,
+                            -4.58266594576163,
+                            0.0
+                        ],
+                        [
+                            -81.254828670216099,
+                            -4.58271881105147,
+                            0.0
+                        ],
+                        [
+                            -81.254696255519207,
+                            -4.58269517354098,
+                            0.0
+                        ],
+                        [
+                            -81.254711664544502,
+                            -4.58264330561436,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-095",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FOWKS JIMENEZ JUAN CARLOSRUIZ DE FOWKS CYNTIA CHERO",
+                "observacion": "",
+                "latitud": -4.5826286755299659,
+                "longitud": -81.254783863788148,
+                "google_maps": "https://www.google.com/maps?q=-4.582628675529966,-81.25478386378815(PM1G-AERTALARA-PU-095)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254732648208503,
+                            -4.58259131365909,
+                            0.0
+                        ],
+                        [
+                            -81.254846896934694,
+                            -4.58261220832429,
+                            0.0
+                        ],
+                        [
+                            -81.254837709016897,
+                            -4.58266594576163,
+                            0.0
+                        ],
+                        [
+                            -81.254718625205498,
+                            -4.58264455589106,
+                            0.0
+                        ],
+                        [
+                            -81.254732648208503,
+                            -4.58259131365909,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-079",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": " CALDERON MENA PATRICIA MERCEDES",
+                "observacion": "",
+                "latitud": -4.5828235701253881,
+                "longitud": -81.254780820980841,
+                "google_maps": "https://www.google.com/maps?q=-4.582823570125388,-81.25478082098084(PM1G-AERTALARA-PU-079)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254762281880403,
+                            -4.58275924020778,
+                            0.0
+                        ],
+                        [
+                            -81.254819985688798,
+                            -4.58276960429305,
+                            0.0
+                        ],
+                        [
+                            -81.254799759872796,
+                            -4.58288789910798,
+                            0.0
+                        ],
+                        [
+                            -81.254741286147095,
+                            -4.58287695203945,
+                            0.0
+                        ],
+                        [
+                            -81.254762281880403,
+                            -4.58275924020778,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-029",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "SAAVEDRA LOPEZ WILBER ALBERTO GUERRERO HUAMAN ELNA MARIA",
+                "observacion": "",
+                "latitud": -4.5836462090864147,
+                "longitud": -81.254582693290118,
+                "google_maps": "https://www.google.com/maps?q=-4.583646209086415,-81.25458269329012(PM1G-AERTALARA-PU-029)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254648981517207,
+                            -4.58368511069255,
+                            0.0
+                        ],
+                        [
+                            -81.254507032812199,
+                            -4.58365938828503,
+                            0.0
+                        ],
+                        [
+                            -81.254516404751897,
+                            -4.58360730779002,
+                            0.0
+                        ],
+                        [
+                            -81.254658353419998,
+                            -4.58363302943736,
+                            0.0
+                        ],
+                        [
+                            -81.254648981517207,
+                            -4.58368511069255,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-036",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LUIS CESAR RUIZ COLOMA AMELIA FELICITA VALLADARES GARRIDO",
+                "observacion": "",
+                "latitud": -4.5840107731346018,
+                "longitud": -81.254517088813415,
+                "google_maps": "https://www.google.com/maps?q=-4.584010773134602,-81.25451708881342(PM1G-AERTALARA-PU-036)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254583377261795,
+                            -4.58404967404806,
+                            0.0
+                        ],
+                        [
+                            -81.254441428483702,
+                            -4.58402395261747,
+                            0.0
+                        ],
+                        [
+                            -81.254450800407497,
+                            -4.58397187218783,
+                            0.0
+                        ],
+                        [
+                            -81.254592749173,
+                            -4.58399759369837,
+                            0.0
+                        ],
+                        [
+                            -81.254583377261795,
+                            -4.58404967404806,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-053",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LIZBETH GARCIA PALACIOS",
+                "observacion": "",
+                "latitud": -4.5841412925982654,
+                "longitud": -81.254347024012418,
+                "google_maps": "https://www.google.com/maps?q=-4.584141292598265,-81.25434702401242(PM1G-AERTALARA-PU-053)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254271363193297,
+                            -4.58415447187173,
+                            0.0
+                        ],
+                        [
+                            -81.254280735219695,
+                            -4.58410239142734,
+                            0.0
+                        ],
+                        [
+                            -81.254422684711699,
+                            -4.58412811332736,
+                            0.0
+                        ],
+                        [
+                            -81.254413313008797,
+                            -4.58418019374288,
+                            0.0
+                        ],
+                        [
+                            -81.254271363193297,
+                            -4.58415447187173,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-031",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GRICELDA ARACELI CURO BARBA",
+                "observacion": "",
+                "latitud": -4.5837503701991817,
+                "longitud": -81.254563948651125,
+                "google_maps": "https://www.google.com/maps?q=-4.583750370199182,-81.25456394865112(PM1G-AERTALARA-PU-031)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254630237707502,
+                            -4.58378927139336,
+                            0.0
+                        ],
+                        [
+                            -81.254488288080907,
+                            -4.58376354988825,
+                            0.0
+                        ],
+                        [
+                            -81.254497659996304,
+                            -4.58371146863453,
+                            0.0
+                        ],
+                        [
+                            -81.254639609612894,
+                            -4.58373719104296,
+                            0.0
+                        ],
+                        [
+                            -81.254630237707502,
+                            -4.58378927139336,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-032",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "JOSE JAIR SOSA FLORES",
+                "observacion": "",
+                "latitud": -4.5838024508378341,
+                "longitud": -81.254554576909484,
+                "google_maps": "https://www.google.com/maps?q=-4.583802450837834,-81.25455457690948(PM1G-AERTALARA-PU-032)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254620865801002,
+                            -4.5838413517434,
+                            0.0
+                        ],
+                        [
+                            -81.254478916145203,
+                            -4.58381563034256,
+                            0.0
+                        ],
+                        [
+                            -81.254488288080907,
+                            -4.58376354988825,
+                            0.0
+                        ],
+                        [
+                            -81.254630237707502,
+                            -4.58378927139336,
+                            0.0
+                        ],
+                        [
+                            -81.254620865801002,
+                            -4.5838413517434,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-034",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GUADALUPE ANTON NUNURA",
+                "observacion": "",
+                "latitud": -4.5839066119776364,
+                "longitud": -81.254535832947397,
+                "google_maps": "https://www.google.com/maps?q=-4.583906611977636,-81.2545358329474(PM1G-AERTALARA-PU-034)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254602121083096,
+                            -4.58394551334849,
+                            0.0
+                        ],
+                        [
+                            -81.254460172327299,
+                            -4.58391979093458,
+                            0.0
+                        ],
+                        [
+                            -81.254469544227405,
+                            -4.58386771069138,
+                            0.0
+                        ],
+                        [
+                            -81.254611493893506,
+                            -4.58389343299826,
+                            0.0
+                        ],
+                        [
+                            -81.254602121083096,
+                            -4.58394551334849,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-035",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "CARMEN TERESA DIOSES NAVARRO",
+                "observacion": "",
+                "latitud": -4.5839586925017155,
+                "longitud": -81.254526460549457,
+                "google_maps": "https://www.google.com/maps?q=-4.5839586925017155,-81.25452646054946(PM1G-AERTALARA-PU-035)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254592749173,
+                            -4.58399759369837,
+                            0.0
+                        ],
+                        [
+                            -81.254450800407497,
+                            -4.58397187218783,
+                            0.0
+                        ],
+                        [
+                            -81.254460172327299,
+                            -4.58391979093458,
+                            0.0
+                        ],
+                        [
+                            -81.254602121083096,
+                            -4.58394551334849,
+                            0.0
+                        ],
+                        [
+                            -81.254592749173,
+                            -4.58399759369837,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-037",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "WILFREDO VILLAR CABANILLAS YANNET ROXANA SILVA BRUNO",
+                "observacion": "",
+                "latitud": -4.5840628534984429,
+                "longitud": -81.254507716927733,
+                "google_maps": "https://www.google.com/maps?q=-4.584062853498443,-81.25450771692773(PM1G-AERTALARA-PU-037)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254574005349497,
+                            -4.58410175439758,
+                            0.0
+                        ],
+                        [
+                            -81.254432056576604,
+                            -4.58407603292321,
+                            0.0
+                        ],
+                        [
+                            -81.254441428483702,
+                            -4.58402395261747,
+                            0.0
+                        ],
+                        [
+                            -81.254583377261795,
+                            -4.58404967404806,
+                            0.0
+                        ],
+                        [
+                            -81.254574005349497,
+                            -4.58410175439758,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-054",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MIGUEL ANGEL UBILLUS ABAD",
+                "observacion": "",
+                "latitud": -4.5840631719184142,
+                "longitud": -81.254361081928707,
+                "google_maps": "https://www.google.com/maps?q=-4.584063171918414,-81.2543610819287(PM1G-AERTALARA-PU-054)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254280735219695,
+                            -4.58410239142734,
+                            0.0
+                        ],
+                        [
+                            -81.254299479582897,
+                            -4.58399823022966,
+                            0.0
+                        ],
+                        [
+                            -81.254441428483702,
+                            -4.58402395261747,
+                            0.0
+                        ],
+                        [
+                            -81.254422684711699,
+                            -4.58412811332736,
+                            0.0
+                        ],
+                        [
+                            -81.254280735219695,
+                            -4.58410239142734,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-039",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LUIS ALBERTO GOMEZ PEREZ MARLENY GARCIA DE GOMEZ",
+                "observacion": "",
+                "latitud": -4.584167014673028,
+                "longitud": -81.254488973164683,
+                "google_maps": "https://www.google.com/maps?q=-4.584167014673028,-81.25448897316468(PM1G-AERTALARA-PU-039)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254555261521702,
+                            -4.58420591600107,
+                            0.0
+                        ],
+                        [
+                            -81.254413313008797,
+                            -4.58418019374288,
+                            0.0
+                        ],
+                        [
+                            -81.254422684711699,
+                            -4.58412811332736,
+                            0.0
+                        ],
+                        [
+                            -81.254564633436303,
+                            -4.58415383565172,
+                            0.0
+                        ],
+                        [
+                            -81.254555261521702,
+                            -4.58420591600107,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-040",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "TALLEDO FARIAS LADY LIZETH TALLEDO FARIAS DE CORDOVA JESSICA JUDITH TALLEDO FARIAS MIRIAM MELINA",
+                "observacion": "",
+                "latitud": -4.5842190952051958,
+                "longitud": -81.254479601055408,
+                "google_maps": "https://www.google.com/maps?q=-4.584219095205196,-81.25447960105541(PM1G-AERTALARA-PU-040)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254545889605893,
+                            -4.58425799635023,
+                            0.0
+                        ],
+                        [
+                            -81.254403940789501,
+                            -4.58423227483342,
+                            0.0
+                        ],
+                        [
+                            -81.254413313008797,
+                            -4.58418019374288,
+                            0.0
+                        ],
+                        [
+                            -81.254555261521702,
+                            -4.58420591600107,
+                            0.0
+                        ],
+                        [
+                            -81.254545889605893,
+                            -4.58425799635023,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-030",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GERALD SLEITTER CHAU MARTINEZ VANESA ALBURQUEQUE BRUNO DE CHAU",
+                "observacion": "",
+                "latitud": -4.5836982896842162,
+                "longitud": -81.254573320943663,
+                "google_maps": "https://www.google.com/maps?q=-4.583698289684216,-81.25457332094366(PM1G-AERTALARA-PU-030)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254639609612894,
+                            -4.58373719104296,
+                            0.0
+                        ],
+                        [
+                            -81.254497659996304,
+                            -4.58371146863453,
+                            0.0
+                        ],
+                        [
+                            -81.254507032812199,
+                            -4.58365938828503,
+                            0.0
+                        ],
+                        [
+                            -81.254648981517207,
+                            -4.58368511069255,
+                            0.0
+                        ],
+                        [
+                            -81.254639609612894,
+                            -4.58373719104296,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-067",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "DORIS AGURTO",
+                "observacion": "",
+                "latitud": -4.5836012100176236,
+                "longitud": -81.254629877915107,
+                "google_maps": "https://www.google.com/maps?q=-4.5836012100176236,-81.25462987791511(PM1G-AERTALARA-PU-067)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254658353419998,
+                            -4.58363302943736,
+                            0.0
+                        ],
+                        [
+                            -81.254558989075605,
+                            -4.5836150243078,
+                            0.0
+                        ],
+                        [
+                            -81.254672291249705,
+                            -4.58355557630771,
+                            0.0
+                        ],
+                        [
+                            -81.254658353419998,
+                            -4.58363302943736,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-146",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MUNICIPALIDAD PROVINCIAL DE TALARA",
+                "observacion": "",
+                "latitud": -4.5782530171366007,
+                "longitud": -81.256494413680642,
+                "google_maps": "https://www.google.com/maps?q=-4.578253017136601,-81.25649441368064(PM1G-AERTALARA-PU-146)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.256372279803401,
+                            -4.5781138918923,
+                            0.0
+                        ],
+                        [
+                            -81.256388306735602,
+                            -4.5780192697294,
+                            0.0
+                        ],
+                        [
+                            -81.256657468139494,
+                            -4.57829270962896,
+                            0.0
+                        ],
+                        [
+                            -81.256479091694302,
+                            -4.57846952080914,
+                            0.0
+                        ],
+                        [
+                            -81.256476835462905,
+                            -4.57847175724202,
+                            0.0
+                        ],
+                        [
+                            -81.256372279803401,
+                            -4.5781138918923,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-145",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MINISTERIO DE EDUCACION",
+                "observacion": "",
+                "latitud": -4.5784386391640854,
+                "longitud": -81.256614360318352,
+                "google_maps": "https://www.google.com/maps?q=-4.5784386391640854,-81.25661436031835(PM1G-AERTALARA-PU-145)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.256553000284896,
+                            -4.57857929075052,
+                            0.0
+                        ],
+                        [
+                            -81.256476835462905,
+                            -4.57847175724202,
+                            0.0
+                        ],
+                        [
+                            -81.256479091694302,
+                            -4.57846952080914,
+                            0.0
+                        ],
+                        [
+                            -81.256657468139494,
+                            -4.57829270962896,
+                            0.0
+                        ],
+                        [
+                            -81.256758835096804,
+                            -4.57839568779914,
+                            0.0
+                        ],
+                        [
+                            -81.256694697207195,
+                            -4.57845926289142,
+                            0.0
+                        ],
+                        [
+                            -81.256630559310693,
+                            -4.57852283798263,
+                            0.0
+                        ],
+                        [
+                            -81.256566421405594,
+                            -4.57858641307151,
+                            0.0
+                        ],
+                        [
+                            -81.256562558911298,
+                            -4.57859024167186,
+                            0.0
+                        ],
+                        [
+                            -81.256553000284896,
+                            -4.57857929075052,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-218",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ANTON CORONADO DAJANA MIRELLA",
+                "observacion": "",
+                "latitud": -4.5776342947967565,
+                "longitud": -81.258478903726242,
+                "google_maps": "https://www.google.com/maps?q=-4.5776342947967565,-81.25847890372624(PM1G-AERTALARA-PU-218)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258430707489495,
+                            -4.57758160678257,
+                            0.0
+                        ],
+                        [
+                            -81.258471849938104,
+                            -4.57756312591058,
+                            0.0
+                        ],
+                        [
+                            -81.258527099998005,
+                            -4.57768698344598,
+                            0.0
+                        ],
+                        [
+                            -81.258485957543797,
+                            -4.57770546341674,
+                            0.0
+                        ],
+                        [
+                            -81.258430707489495,
+                            -4.57758160678257,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-203",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "TUME FARIAS ARELIS MERCEDES",
+                "observacion": "",
+                "latitud": -4.5779694434029761,
+                "longitud": -81.258641122484079,
+                "google_maps": "https://www.google.com/maps?q=-4.577969443402976,-81.25864112248408(PM1G-AERTALARA-PU-203)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258682319840503,
+                            -4.57791108235127,
+                            0.0
+                        ],
+                        [
+                            -81.258708975637902,
+                            -4.57794755872883,
+                            0.0
+                        ],
+                        [
+                            -81.258599924713707,
+                            -4.57802780479413,
+                            0.0
+                        ],
+                        [
+                            -81.258573269819607,
+                            -4.57799132750745,
+                            0.0
+                        ],
+                        [
+                            -81.258682319840503,
+                            -4.57791108235127,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-191",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GARCIA SAAVEDRA JULIS HERNAN",
+                "observacion": "",
+                "latitud": -4.5781568215589692,
+                "longitud": -81.258634061672325,
+                "google_maps": "https://www.google.com/maps?q=-4.578156821558969,-81.25863406167232(PM1G-AERTALARA-PU-191)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258610505433296,
+                            -4.57808932085771,
+                            0.0
+                        ],
+                        [
+                            -81.258693265906103,
+                            -4.57819663930653,
+                            0.0
+                        ],
+                        [
+                            -81.258657617909506,
+                            -4.57822432226072,
+                            0.0
+                        ],
+                        [
+                            -81.258574857438305,
+                            -4.57811700380774,
+                            0.0
+                        ],
+                        [
+                            -81.258610505433296,
+                            -4.57808932085771,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-185",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LEQUERNAQUE YAMUNAQUE PEDRO ELIAS",
+                "observacion": "",
+                "latitud": -4.577652775536821,
+                "longitud": -81.258437761290537,
+                "google_maps": "https://www.google.com/maps?q=-4.577652775536821,-81.25843776129054(PM1G-AERTALARA-PU-185)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258444815087699,
+                            -4.57772394428991,
+                            0.0
+                        ],
+                        [
+                            -81.258389565038698,
+                            -4.57760008765231,
+                            0.0
+                        ],
+                        [
+                            -81.258430707489495,
+                            -4.57758160678257,
+                            0.0
+                        ],
+                        [
+                            -81.258485957543797,
+                            -4.57770546341674,
+                            0.0
+                        ],
+                        [
+                            -81.258444815087699,
+                            -4.57772394428991,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-184",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "SULLON DIOS EDWIN ABEL",
+                "observacion": "",
+                "latitud": -4.5778070881201725,
+                "longitud": -81.258161114368818,
+                "google_maps": "https://www.google.com/maps?q=-4.5778070881201725,-81.25816111436882(PM1G-AERTALARA-PU-184)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258176775721793,
+                            -4.57790105494043,
+                            0.0
+                        ],
+                        [
+                            -81.258100061742198,
+                            -4.57772795700111,
+                            0.0
+                        ],
+                        [
+                            -81.258141331345797,
+                            -4.57770953942789,
+                            0.0
+                        ],
+                        [
+                            -81.258184851473104,
+                            -4.57780774041957,
+                            0.0
+                        ],
+                        [
+                            -81.258189464727295,
+                            -4.57780568154781,
+                            0.0
+                        ],
+                        [
+                            -81.258222654077599,
+                            -4.57788057215941,
+                            0.0
+                        ],
+                        [
+                            -81.258176775721793,
+                            -4.57790105494043,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-177",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "NANCY ANTONIETA ECHAJAYA JANAMPA",
+                "observacion": "",
+                "latitud": -4.57793296618072,
+                "longitud": -81.25861446679481,
+                "google_maps": "https://www.google.com/maps?q=-4.57793296618072,-81.25861446679481(PM1G-AERTALARA-PU-177)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258655664045506,
+                            -4.57787460506787,
+                            0.0
+                        ],
+                        [
+                            -81.258682319840204,
+                            -4.57791108144661,
+                            0.0
+                        ],
+                        [
+                            -81.258573269819607,
+                            -4.57799132750745,
+                            0.0
+                        ],
+                        [
+                            -81.258546614026699,
+                            -4.57795485021991,
+                            0.0
+                        ],
+                        [
+                            -81.258655664045506,
+                            -4.57787460506787,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-176",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "CRUZ JIMENEZ ROGELIOYMAN SANDOVAL DE CRUZ MARIA MAURA",
+                "observacion": "",
+                "latitud": -4.577896489453293,
+                "longitud": -81.258587811140345,
+                "google_maps": "https://www.google.com/maps?q=-4.577896489453293,-81.25858781114034(PM1G-AERTALARA-PU-176)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258655664045506,
+                            -4.57787460506787,
+                            0.0
+                        ],
+                        [
+                            -81.258546614026699,
+                            -4.57795485021991,
+                            0.0
+                        ],
+                        [
+                            -81.258519958236903,
+                            -4.57791837383586,
+                            0.0
+                        ],
+                        [
+                            -81.258629008253706,
+                            -4.57783812868792,
+                            0.0
+                        ],
+                        [
+                            -81.258655664045506,
+                            -4.57787460506787,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-175",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "IRMA JAQUELINE ALEMAN VINCES",
+                "observacion": "",
+                "latitud": -4.577614711366123,
+                "longitud": -81.258520294617654,
+                "google_maps": "https://www.google.com/maps?q=-4.577614711366123,-81.25852029461765(PM1G-AERTALARA-PU-175)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258527099998005,
+                            -4.57768698344598,
+                            0.0
+                        ],
+                        [
+                            -81.258471112802297,
+                            -4.57756147516445,
+                            0.0
+                        ],
+                        [
+                            -81.258513489233295,
+                            -4.57754243928512,
+                            0.0
+                        ],
+                        [
+                            -81.258569476434502,
+                            -4.57766794756305,
+                            0.0
+                        ],
+                        [
+                            -81.258527099998005,
+                            -4.57768698344598,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-174",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "KENJI YANDIR HIDALGO HIDALGO",
+                "observacion": "",
+                "latitud": -4.5776990692647122,
+                "longitud": -81.258216609667059,
+                "google_maps": "https://www.google.com/maps?q=-4.577699069264712,-81.25821660966706(PM1G-AERTALARA-PU-174)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258274174072596,
+                            -4.5776486274716,
+                            0.0
+                        ],
+                        [
+                            -81.258292490695297,
+                            -4.57768995768756,
+                            0.0
+                        ],
+                        [
+                            -81.258159045259006,
+                            -4.57774951105913,
+                            0.0
+                        ],
+                        [
+                            -81.258140728642104,
+                            -4.57770818083947,
+                            0.0
+                        ],
+                        [
+                            -81.258274174072596,
+                            -4.5776486274716,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-173",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LIKHEISI ROJAS HERRERA",
+                "observacion": "",
+                "latitud": -4.5777387833672893,
+                "longitud": -81.2582385481561,
+                "google_maps": "https://www.google.com/maps?q=-4.577738783367289,-81.2582385481561(PM1G-AERTALARA-PU-173)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258311463523697,
+                            -4.57773099545935,
+                            0.0
+                        ],
+                        [
+                            -81.258183949150904,
+                            -4.57778790145559,
+                            0.0
+                        ],
+                        [
+                            -81.258165632531401,
+                            -4.57774657123676,
+                            0.0
+                        ],
+                        [
+                            -81.258293147800202,
+                            -4.57768966524371,
+                            0.0
+                        ],
+                        [
+                            -81.258311463523697,
+                            -4.57773099545935,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-171",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "LEQUERNAQUE CASTRO PEDRO ENRIQUE",
+                "observacion": "",
+                "latitud": -4.577819991733219,
+                "longitud": -81.25828047614452,
+                "google_maps": "https://www.google.com/maps?q=-4.577819991733219,-81.25828047614452(PM1G-AERTALARA-PU-171)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258329123947405,
+                            -4.57777261811756,
+                            0.0
+                        ],
+                        [
+                            -81.258349754221101,
+                            -4.57781740331392,
+                            0.0
+                        ],
+                        [
+                            -81.258230443299993,
+                            -4.57786567043031,
+                            0.0
+                        ],
+                        [
+                            -81.258208852144307,
+                            -4.57782629275599,
+                            0.0
+                        ],
+                        [
+                            -81.258329123947405,
+                            -4.57777261811756,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-170",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FLORES LEQUERNAQUE GIANMARCO DANIEL",
+                "observacion": "",
+                "latitud": -4.5779081083163522,
+                "longitud": -81.258385032716092,
+                "google_maps": "https://www.google.com/maps?q=-4.577908108316352,-81.25838503271609(PM1G-AERTALARA-PU-170)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258315166546396,
+                            -4.5779309204224,
+                            0.0
+                        ],
+                        [
+                            -81.258424217491097,
+                            -4.57785067530401,
+                            0.0
+                        ],
+                        [
+                            -81.258457621613502,
+                            -4.57788336232904,
+                            0.0
+                        ],
+                        [
+                            -81.258341822327097,
+                            -4.57796739771931,
+                            0.0
+                        ],
+                        [
+                            -81.258315166546396,
+                            -4.5779309204224,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-169",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ERICK MAY CHAVEZ BULNES",
+                "observacion": "",
+                "latitud": -4.5779417234943622,
+                "longitud": -81.258416423550116,
+                "google_maps": "https://www.google.com/maps?q=-4.577941723494362,-81.25841642355012(PM1G-AERTALARA-PU-169)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258457621613502,
+                            -4.57788336232904,
+                            0.0
+                        ],
+                        [
+                            -81.258484276497398,
+                            -4.57791983871603,
+                            0.0
+                        ],
+                        [
+                            -81.258375226451705,
+                            -4.578000084748,
+                            0.0
+                        ],
+                        [
+                            -81.258348570668105,
+                            -4.57796360745254,
+                            0.0
+                        ],
+                        [
+                            -81.258457621613502,
+                            -4.57788336232904,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-168",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "SHIRLEY VANESSA SEMINARIO TIMANA RENATO EDER SANDOVAL CRISANTO",
+                "observacion": "",
+                "latitud": -4.5779781999698752,
+                "longitud": -81.258443079399655,
+                "google_maps": "https://www.google.com/maps?q=-4.577978199969875,-81.25844307939965(PM1G-AERTALARA-PU-168)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258484276497398,
+                            -4.57791983871603,
+                            0.0
+                        ],
+                        [
+                            -81.258510932285802,
+                            -4.57795631600619,
+                            0.0
+                        ],
+                        [
+                            -81.258401881336198,
+                            -4.57803656113793,
+                            0.0
+                        ],
+                        [
+                            -81.258375226451705,
+                            -4.578000084748,
+                            0.0
+                        ],
+                        [
+                            -81.258484276497398,
+                            -4.57791983871603,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-167",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "RUIZ ARADIEL YOJANA ZENAIDA",
+                "observacion": "",
+                "latitud": -4.5780146771115025,
+                "longitud": -81.258469735018551,
+                "google_maps": "https://www.google.com/maps?q=-4.5780146771115025,-81.25846973501855(PM1G-AERTALARA-PU-167)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258401882237706,
+                            -4.5780365611376,
+                            0.0
+                        ],
+                        [
+                            -81.258510932285802,
+                            -4.57795631600619,
+                            0.0
+                        ],
+                        [
+                            -81.258537588076706,
+                            -4.57799279239049,
+                            0.0
+                        ],
+                        [
+                            -81.258428538026806,
+                            -4.5780730384307,
+                            0.0
+                        ],
+                        [
+                            -81.258401882237706,
+                            -4.5780365611376,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-166",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "CHERO URIA ARNOLD ANDRE",
+                "observacion": "",
+                "latitud": -4.5780310923268264,
+                "longitud": -81.258523653159372,
+                "google_maps": "https://www.google.com/maps?q=-4.578031092326826,-81.25852365315937(PM1G-AERTALARA-PU-166)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258509718847606,
+                            -4.57806939225003,
+                            0.0
+                        ],
+                        [
+                            -81.258483062153203,
+                            -4.57803291496052,
+                            0.0
+                        ],
+                        [
+                            -81.258537588076706,
+                            -4.57799279239049,
+                            0.0
+                        ],
+                        [
+                            -81.258564243870595,
+                            -4.57802926967826,
+                            0.0
+                        ],
+                        [
+                            -81.258509718847606,
+                            -4.57806939225003,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-165",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GONZALES GONZALES DE ZAPATA KAREM JANNET",
+                "observacion": "",
+                "latitud": -4.5781075068402659,
+                "longitud": -81.258369956877786,
+                "google_maps": "https://www.google.com/maps?q=-4.578107506840266,-81.25836995687779(PM1G-AERTALARA-PU-165)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258390615425398,
+                            -4.57817595679471,
+                            0.0
+                        ],
+                        [
+                            -81.2583125029131,
+                            -4.57806518533525,
+                            0.0
+                        ],
+                        [
+                            -81.258349298211002,
+                            -4.57803905710148,
+                            0.0
+                        ],
+                        [
+                            -81.258427410725403,
+                            -4.57814982765219,
+                            0.0
+                        ],
+                        [
+                            -81.258390615425398,
+                            -4.57817595679471,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-164",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ZAPATA NUNJAR JANINE",
+                "observacion": "",
+                "latitud": -4.5781336352906479,
+                "longitud": -81.258333161460556,
+                "google_maps": "https://www.google.com/maps?q=-4.578133635290648,-81.25833316146056(PM1G-AERTALARA-PU-164)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258353820122394,
+                            -4.57820208503079,
+                            0.0
+                        ],
+                        [
+                            -81.258275707612896,
+                            -4.57809131447189,
+                            0.0
+                        ],
+                        [
+                            -81.2583125029131,
+                            -4.57806518533525,
+                            0.0
+                        ],
+                        [
+                            -81.258390615425398,
+                            -4.57817595679471,
+                            0.0
+                        ],
+                        [
+                            -81.258353820122394,
+                            -4.57820208503079,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-158",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "JOANA PAOLA HUERTAS CARRANZA",
+                "observacion": "",
+                "latitud": -4.5782398704087495,
+                "longitud": -81.258527115418659,
+                "google_maps": "https://www.google.com/maps?q=-4.5782398704087495,-81.25852711541866(PM1G-AERTALARA-PU-158)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258503559637006,
+                            -4.57817236970354,
+                            0.0
+                        ],
+                        [
+                            -81.258586320104897,
+                            -4.57827968816484,
+                            0.0
+                        ],
+                        [
+                            -81.258550671198407,
+                            -4.57830737111443,
+                            0.0
+                        ],
+                        [
+                            -81.258467910732193,
+                            -4.57820005264896,
+                            0.0
+                        ],
+                        [
+                            -81.258503559637006,
+                            -4.57817236970354,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-157",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "AGUILAR HIDALGO AMANDA KATHERINE ROSALES LEQUERNAQUE PEDRO GILBERT",
+                "observacion": "",
+                "latitud": -4.578428300495986,
+                "longitud": -81.258273448877176,
+                "google_maps": "https://www.google.com/maps?q=-4.578428300495986,-81.25827344887718(PM1G-AERTALAR-PU-157)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.2583326531159,
+                            -4.57846811827293,
+                            0.0
+                        ],
+                        [
+                            -81.258297005091507,
+                            -4.5784958012105,
+                            0.0
+                        ],
+                        [
+                            -81.258214244638197,
+                            -4.57838848271534,
+                            0.0
+                        ],
+                        [
+                            -81.258249892660899,
+                            -4.57836079978194,
+                            0.0
+                        ],
+                        [
+                            -81.2583326531159,
+                            -4.57846811827293,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-156",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FEIJO MEDINA YESSENIA JANINA",
+                "observacion": "",
+                "latitud": -4.5784006175595158,
+                "longitud": -81.258309097350065,
+                "google_maps": "https://www.google.com/maps?q=-4.578400617559516,-81.25830909735006(PM1G-AERTALAR-PU-156)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258368302039003,
+                            -4.5784404353334,
+                            0.0
+                        ],
+                        [
+                            -81.2583326531159,
+                            -4.57846811827293,
+                            0.0
+                        ],
+                        [
+                            -81.258249892660899,
+                            -4.57836079978194,
+                            0.0
+                        ],
+                        [
+                            -81.258285541582296,
+                            -4.57833311684656,
+                            0.0
+                        ],
+                        [
+                            -81.258368302039003,
+                            -4.5784404353334,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-155",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "RUTH MAGALLY ZAPATA NUNJAR",
+                "observacion": "",
+                "latitud": -4.5783733224502372,
+                "longitud": -81.258344246966161,
+                "google_maps": "https://www.google.com/maps?q=-4.578373322450237,-81.25834424696616(PM1G-AERTALAR-PU-155)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258320691196104,
+                            -4.57830582128621,
+                            0.0
+                        ],
+                        [
+                            -81.258403451654701,
+                            -4.57841314067361,
+                            0.0
+                        ],
+                        [
+                            -81.258367802734398,
+                            -4.57844082361476,
+                            0.0
+                        ],
+                        [
+                            -81.258285042277393,
+                            -4.5783335042232,
+                            0.0
+                        ],
+                        [
+                            -81.258320691196104,
+                            -4.57830582128621,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-154",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "KARLITA BEATRIZ ORTIZ SANDOVAL",
+                "observacion": "",
+                "latitud": -4.5783618018671604,
+                "longitud": -81.258392417081964,
+                "google_maps": "https://www.google.com/maps?q=-4.57836180186716,-81.25839241708196(PM1G-AERTALAR-PU-154)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258360608900603,
+                            -4.57828337933563,
+                            0.0
+                        ],
+                        [
+                            -81.258460086872901,
+                            -4.57841237476795,
+                            0.0
+                        ],
+                        [
+                            -81.258424224353703,
+                            -4.57844022424721,
+                            0.0
+                        ],
+                        [
+                            -81.258324747284604,
+                            -4.57831122790487,
+                            0.0
+                        ],
+                        [
+                            -81.258360608900603,
+                            -4.57828337933563,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-153",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "EDITH YULISSA HUERTAS CARRANZA",
+                "observacion": "",
+                "latitud": -4.5783232664558744,
+                "longitud": -81.258420164931522,
+                "google_maps": "https://www.google.com/maps?q=-4.578323266455874,-81.25842016493152(PM1G-AERTALAR-PU-153)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258396613815705,
+                            -4.57825541853458,
+                            0.0
+                        ],
+                        [
+                            -81.258479815328897,
+                            -4.57836330950152,
+                            0.0
+                        ],
+                        [
+                            -81.258443589435998,
+                            -4.57839098360803,
+                            0.0
+                        ],
+                        [
+                            -81.258360608900304,
+                            -4.57828337843097,
+                            0.0
+                        ],
+                        [
+                            -81.258396613815705,
+                            -4.57825541853458,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALAR-PU-152",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "CINTIA LYCE HUERTAS CARRANZA  RATZEL SANTILLAN ZUÃ‘IGA",
+                "observacion": "",
+                "latitud": -4.5782954397313675,
+                "longitud": -81.258456145829214,
+                "google_maps": "https://www.google.com/maps?q=-4.5782954397313675,-81.25845614582921(PM1G-AERTALAR-PU-152)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258432476327599,
+                            -4.57822756996169,
+                            0.0
+                        ],
+                        [
+                            -81.258515677842496,
+                            -4.57833546092442,
+                            0.0
+                        ],
+                        [
+                            -81.258479815328897,
+                            -4.57836330950152,
+                            0.0
+                        ],
+                        [
+                            -81.258396613815705,
+                            -4.57825541853458,
+                            0.0
+                        ],
+                        [
+                            -81.258432476327599,
+                            -4.57822756996169,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-151",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "TERESA BEATRIZ CAMPOS FARFAN",
+                "observacion": "",
+                "latitud": -4.5782675532232782,
+                "longitud": -81.25849146661578,
+                "google_maps": "https://www.google.com/maps?q=-4.578267553223278,-81.25849146661578(PM1G-AERTALARA-PU-151)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258467910732193,
+                            -4.57820005264896,
+                            0.0
+                        ],
+                        [
+                            -81.258550671198407,
+                            -4.57830737111443,
+                            0.0
+                        ],
+                        [
+                            -81.258515023190597,
+                            -4.57833505406206,
+                            0.0
+                        ],
+                        [
+                            -81.258432261824595,
+                            -4.57822773559276,
+                            0.0
+                        ],
+                        [
+                            -81.258467910732193,
+                            -4.57820005264896,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-150",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ISAI JAIRO AREVALO ROQUE",
+                "observacion": "",
+                "latitud": -4.5784595825016243,
+                "longitud": -81.258233166058787,
+                "google_maps": "https://www.google.com/maps?q=-4.578459582501624,-81.25823316605879(PM1G-AERTALARA-PU-150)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258297005091507,
+                            -4.5784958012105,
+                            0.0
+                        ],
+                        [
+                            -81.258252087477302,
+                            -4.57853068228888,
+                            0.0
+                        ],
+                        [
+                            -81.258169327026096,
+                            -4.57842336378847,
+                            0.0
+                        ],
+                        [
+                            -81.258214244638197,
+                            -4.57838848271534,
+                            0.0
+                        ],
+                        [
+                            -81.258297005091507,
+                            -4.5784958012105,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-148",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "ZULEMA CHIWAN CUBAS",
+                "observacion": "",
+                "latitud": -4.5781845045104221,
+                "longitud": -81.258598413224391,
+                "google_maps": "https://www.google.com/maps?q=-4.578184504510422,-81.25859841322439(PM1G-AERTALARA-PU-148)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258574857438305,
+                            -4.57811700380774,
+                            0.0
+                        ],
+                        [
+                            -81.258657617909506,
+                            -4.57822432226072,
+                            0.0
+                        ],
+                        [
+                            -81.258621969008601,
+                            -4.57825200521359,
+                            0.0
+                        ],
+                        [
+                            -81.258539208539005,
+                            -4.57814468675647,
+                            0.0
+                        ],
+                        [
+                            -81.258574857438305,
+                            -4.57811700380774,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-142",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "EDWIN MARCOS SOCOLA VELA ESPERANZA CARIDAD SALDARRIAGA CORDOVA DE SOCOLA",
+                "observacion": "",
+                "latitud": -4.5784918368017582,
+                "longitud": -81.25679012069952,
+                "google_maps": "https://www.google.com/maps?q=-4.578491836801758,-81.25679012069952(PM1G-AERTALARA-PU-142)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.256821405518906,
+                            -4.57858798591722,
+                            0.0
+                        ],
+                        [
+                            -81.256694697383693,
+                            -4.57845926327257,
+                            0.0
+                        ],
+                        [
+                            -81.256758835240802,
+                            -4.57839568757437,
+                            0.0
+                        ],
+                        [
+                            -81.256885544276599,
+                            -4.57852441020753,
+                            0.0
+                        ],
+                        [
+                            -81.256821405518906,
+                            -4.57858798591722,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-078",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "JOSE ADALBERTO CAMPAÃ‘A LOPEZ SANTOS ERODITA CRUZ CHUYES",
+                "observacion": "",
+                "latitud": -4.583013476653643,
+                "longitud": -81.254548733904642,
+                "google_maps": "https://www.google.com/maps?q=-4.583013476653643,-81.25454873390464(PM1G-AERTALARA-PU-078)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254490489983496,
+                            -4.58295661099643,
+                            0.0
+                        ],
+                        [
+                            -81.254623444561403,
+                            -4.58298139757867,
+                            0.0
+                        ],
+                        [
+                            -81.254606978048699,
+                            -4.58307034191654,
+                            0.0
+                        ],
+                        [
+                            -81.254474023455003,
+                            -4.58304555623685,
+                            0.0
+                        ],
+                        [
+                            -81.254490489983496,
+                            -4.58295661099643,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-077",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "INFANTE VIUDA DE FLORES MERCEDES",
+                "observacion": "",
+                "latitud": -4.5830904286335468,
+                "longitud": -81.25453460226538,
+                "google_maps": "https://www.google.com/maps?q=-4.583090428633547,-81.25453460226538(PM1G-AERTALARA-PU-077)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254474023455003,
+                            -4.58304555623685,
+                            0.0
+                        ],
+                        [
+                            -81.254607061729601,
+                            -4.58306988593582,
+                            0.0
+                        ],
+                        [
+                            -81.254595181082095,
+                            -4.58313530103007,
+                            0.0
+                        ],
+                        [
+                            -81.254462142795603,
+                            -4.5831109713296,
+                            0.0
+                        ],
+                        [
+                            -81.254474023455003,
+                            -4.58304555623685,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-076",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "BARREDA ROGEL IRIS",
+                "observacion": "",
+                "latitud": -4.5831480152403916,
+                "longitud": -81.25452391336843,
+                "google_maps": "https://www.google.com/maps?q=-4.583148015240392,-81.25452391336843(PM1G-AERTALARA-PU-076)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254461920103097,
+                            -4.58311092979432,
+                            0.0
+                        ],
+                        [
+                            -81.254594958390001,
+                            -4.58313526039951,
+                            0.0
+                        ],
+                        [
+                            -81.254585906638596,
+                            -4.58318510068652,
+                            0.0
+                        ],
+                        [
+                            -81.254452868342696,
+                            -4.58316077008018,
+                            0.0
+                        ],
+                        [
+                            -81.254461920103097,
+                            -4.58311092979432,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-073",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FARIAS VASQUEZ GILBERTO HUGO PEÃ‘A DE FARIAS ELIZABETH SILVIA",
+                "observacion": "",
+                "latitud": -4.5832811997144178,
+                "longitud": -81.254499168867284,
+                "google_maps": "https://www.google.com/maps?q=-4.583281199714418,-81.25449916886728(PM1G-AERTALARA-PU-073)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254440924819903,
+                            -4.5832243342514,
+                            0.0
+                        ],
+                        [
+                            -81.254573879446497,
+                            -4.58324912084,
+                            0.0
+                        ],
+                        [
+                            -81.254557412923404,
+                            -4.58333806517673,
+                            0.0
+                        ],
+                        [
+                            -81.254424458280496,
+                            -4.58331327858603,
+                            0.0
+                        ],
+                        [
+                            -81.254440924819903,
+                            -4.5832243342514,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-072",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FARIAS VASQUEZ HUGO GILBERTO PEÃ‘A DE FARIAS ELIZABETH SILVIA",
+                "observacion": "",
+                "latitud": -4.5833007397688936,
+                "longitud": -81.254603981302765,
+                "google_maps": "https://www.google.com/maps?q=-4.583300739768894,-81.25460398130276(PM1G-AERTALARA-PU-072)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254557412923404,
+                            -4.58333806517673,
+                            0.0
+                        ],
+                        [
+                            -81.254573879446497,
+                            -4.58324912084,
+                            0.0
+                        ],
+                        [
+                            -81.254650549677905,
+                            -4.58326341435867,
+                            0.0
+                        ],
+                        [
+                            -81.254634083164106,
+                            -4.58335235869664,
+                            0.0
+                        ],
+                        [
+                            -81.254557412923404,
+                            -4.58333806517673,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-071",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "GONZALO LENIN RAMIREZ CARRERA",
+                "observacion": "",
+                "latitud": -4.5833149504664217,
+                "longitud": -81.254680208468187,
+                "google_maps": "https://www.google.com/maps?q=-4.583314950466422,-81.25468020846819(PM1G-AERTALARA-PU-071)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254709867145294,
+                            -4.58336648697047,
+                            0.0
+                        ],
+                        [
+                            -81.254634083164106,
+                            -4.58335235869664,
+                            0.0
+                        ],
+                        [
+                            -81.254650549677905,
+                            -4.58326341435867,
+                            0.0
+                        ],
+                        [
+                            -81.2547263336496,
+                            -4.58327754172663,
+                            0.0
+                        ],
+                        [
+                            -81.254709867145294,
+                            -4.58336648697047,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-070",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "YENNY JOSEFINA VILLAR VDA DE GARCIA",
+                "observacion": "",
+                "latitud": -4.583218191880893,
+                "longitud": -81.254658463527051,
+                "google_maps": "https://www.google.com/maps?q=-4.583218191880893,-81.25465846352705(PM1G-AERTALARA-PU-070)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.2547263336496,
+                            -4.58327754172663,
+                            0.0
+                        ],
+                        [
+                            -81.254573879446497,
+                            -4.58324912084,
+                            0.0
+                        ],
+                        [
+                            -81.254590593414605,
+                            -4.58315884203459,
+                            0.0
+                        ],
+                        [
+                            -81.254743047598794,
+                            -4.58318726291877,
+                            0.0
+                        ],
+                        [
+                            -81.2547263336496,
+                            -4.58327754172663,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-069",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MERCEDES INFANTES VIUDA DE FLORES",
+                "observacion": "",
+                "latitud": -4.5831288025713386,
+                "longitud": -81.254675012481187,
+                "google_maps": "https://www.google.com/maps?q=-4.583128802571339,-81.25467501248119(PM1G-AERTALARA-PU-069)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254743046607103,
+                            -4.58318726291913,
+                            0.0
+                        ],
+                        [
+                            -81.254590593414605,
+                            -4.58315884203459,
+                            0.0
+                        ],
+                        [
+                            -81.254606978048699,
+                            -4.58307034191654,
+                            0.0
+                        ],
+                        [
+                            -81.254759432214698,
+                            -4.58309876370296,
+                            0.0
+                        ],
+                        [
+                            -81.254743046607103,
+                            -4.58318726291913,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-068",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "EDWIN SANCHEZ DAVILA ANDRADE",
+                "observacion": "",
+                "latitud": -4.5830400804460796,
+                "longitud": -81.25469143850647,
+                "google_maps": "https://www.google.com/maps?q=-4.58304008044608,-81.25469143850647(PM1G-AERTALARA-PU-068)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.254759432214698,
+                            -4.58309876370296,
+                            0.0
+                        ],
+                        [
+                            -81.254606978048699,
+                            -4.58307034191654,
+                            0.0
+                        ],
+                        [
+                            -81.254623444561403,
+                            -4.58298139757867,
+                            0.0
+                        ],
+                        [
+                            -81.254775898708502,
+                            -4.583009818458,
+                            0.0
+                        ],
+                        [
+                            -81.254759432214698,
+                            -4.58309876370296,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "kml_418",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "PUELL PERALDA DEBRA NICOLE",
+                "observacion": "",
+                "latitud": -4.578212187460422,
+                "longitud": -81.258562764322932,
+                "google_maps": "https://www.google.com/maps?q=-4.578212187460422,-81.25856276432293(kml_418)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258539208539005,
+                            -4.57814468675647,
+                            0.0
+                        ],
+                        [
+                            -81.258621969008601,
+                            -4.57825200521359,
+                            0.0
+                        ],
+                        [
+                            -81.258586320104897,
+                            -4.57827968816484,
+                            0.0
+                        ],
+                        [
+                            -81.258503559637006,
+                            -4.57817236970354,
+                            0.0
+                        ],
+                        [
+                            -81.258539208539005,
+                            -4.57814468675647,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-091",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "MOGOLLON FERNANDEZ LUZMILA ARTEMISAVELIZ GAONA ULISES",
+                "observacion": "",
+                "latitud": -4.5823761784677108,
+                "longitud": -81.254850144045804,
+                "google_maps": "https://www.google.com/maps?q=-4.582376178467711,-81.2548501440458(PM1G-AERTALARA-PU-091)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.2548206,
+                            -4.5823248,
+                            0.0
+                        ],
+                        [
+                            -81.254893022074171,
+                            -4.582336766053748,
+                            0.0
+                        ],
+                        [
+                            -81.254878168237539,
+                            -4.582429311589589,
+                            0.0
+                        ],
+                        [
+                            -81.254807821914895,
+                            -4.5824143431515,
+                            0.0
+                        ],
+                        [
+                            -81.2548206,
+                            -4.5823248,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nombredelproyecto": "AEROPUERTO DE TALARA",
+                "codigodepredio": "PM1G-AERTALARA-PU-172",
+                "modalidaddeadquisicion": "ADQUISICION",
+                "sujetopasivo": "FLORES SUNCION MERCEDES DEL ROSARIO",
+                "observacion": "",
+                "latitud": -4.5777636725959781,
+                "longitud": -81.258297411025467,
+                "google_maps": "https://www.google.com/maps?q=-4.577763672595978,-81.25829741102547(PM1G-AERTALARA-PU-172)"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.258329123947405,
+                            -4.57777261811756,
+                            0.0
+                        ],
+                        [
+                            -81.258272285740603,
+                            -4.5777979837167,
+                            0.0
+                        ],
+                        [
+                            -81.258267487561596,
+                            -4.57778715480721,
+                            0.0
+                        ],
+                        [
+                            -81.258283138192198,
+                            -4.57778017057594,
+                            0.0
+                        ],
+                        [
+                            -81.258269620647098,
+                            -4.57774966836452,
+                            0.0
+                        ],
+                        [
+                            -81.258310807320299,
+                            -4.57773128790287,
+                            0.0
+                        ],
+                        [
+                            -81.258329123947405,
+                            -4.57777261811756,
+                            0.0
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
